@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56342CD518E2FC8F00F675DE /* MccCardListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56342CD418E2FC8F00F675DE /* MccCardListTableViewCell.m */; };
+		563C6CCA18E5652B0019F2D4 /* green-and-white-polka-dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 563C6CC918E5652B0019F2D4 /* green-and-white-polka-dots.png */; };
+		563C6CCD18E75F410019F2D4 /* MccNonRotatingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 563C6CCC18E75F410019F2D4 /* MccNonRotatingImageView.m */; };
 		5647118018DDAF4F006A8121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647117F18DDAF4F006A8121 /* Foundation.framework */; };
 		5647118218DDAF4F006A8121 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647118118DDAF4F006A8121 /* CoreGraphics.framework */; };
 		5647118418DDAF4F006A8121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647118318DDAF4F006A8121 /* UIKit.framework */; };
@@ -22,6 +25,18 @@
 		564711A118DDAF4F006A8121 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5647118518DDAF4F006A8121 /* CoreData.framework */; };
 		564711A918DDAF4F006A8121 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564711A718DDAF4F006A8121 /* InfoPlist.strings */; };
 		564711AB18DDAF4F006A8121 /* MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711AA18DDAF4F006A8121 /* MemoryTests.m */; };
+		564711B518DDAFA8006A8121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564711B418DDAFA8006A8121 /* Main.storyboard */; };
+		564711BB18DE1D1A006A8121 /* MccMemoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711B918DE1D1A006A8121 /* MccMemoryCollectionViewController.m */; };
+		564711BC18DE1D1A006A8121 /* MccMemoryCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 564711BA18DE1D1A006A8121 /* MccMemoryCollectionViewController.xib */; };
+		564711BF18DE1E7F006A8121 /* MccMemoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711BE18DE1E7F006A8121 /* MccMemoryCollectionViewCell.m */; };
+		564711D318DEBC4D006A8121 /* MccMemoryCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711D218DEBC4D006A8121 /* MccMemoryCard.m */; };
+		564711D618DEC7B3006A8121 /* NSMutableArray+MccShuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711D518DEC7B3006A8121 /* NSMutableArray+MccShuffling.m */; };
+		564711D918DF06B6006A8121 /* MccViewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711D818DF06B6006A8121 /* MccViewImageViewController.m */; };
+		564711DC18E0C735006A8121 /* MccSelectedPicturesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711DB18E0C735006A8121 /* MccSelectedPicturesTableViewController.m */; };
+		564711DF18E19F11006A8121 /* MccStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564711DE18E19F11006A8121 /* MccStartViewController.m */; };
+		5665294A18E208D6002FFC88 /* MccMemoryCardDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5665294918E208D6002FFC88 /* MccMemoryCardDAO.m */; };
+		5665294D18E20A68002FFC88 /* MemoryCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5665294C18E20A68002FFC88 /* MemoryCard.m */; };
+		5692C9BE18EC0FFB0054BEBD /* MccGrapicsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5692C9BD18EC0FFB0054BEBD /* MccGrapicsUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56342CD318E2FC8F00F675DE /* MccCardListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccCardListTableViewCell.h; sourceTree = "<group>"; };
+		56342CD418E2FC8F00F675DE /* MccCardListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccCardListTableViewCell.m; sourceTree = "<group>"; };
+		563C6CC918E5652B0019F2D4 /* green-and-white-polka-dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "green-and-white-polka-dots.png"; path = "Resources/green-and-white-polka-dots.png"; sourceTree = SOURCE_ROOT; };
+		563C6CCB18E75F410019F2D4 /* MccNonRotatingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccNonRotatingImageView.h; sourceTree = "<group>"; };
+		563C6CCC18E75F410019F2D4 /* MccNonRotatingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccNonRotatingImageView.m; sourceTree = "<group>"; };
 		5647117C18DDAF4F006A8121 /* Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5647117F18DDAF4F006A8121 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5647118118DDAF4F006A8121 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +73,27 @@
 		564711A618DDAF4F006A8121 /* MemoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryTests-Info.plist"; sourceTree = "<group>"; };
 		564711A818DDAF4F006A8121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		564711AA18DDAF4F006A8121 /* MemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTests.m; sourceTree = "<group>"; };
+		564711B418DDAFA8006A8121 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		564711B818DE1D1A006A8121 /* MccMemoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccMemoryCollectionViewController.h; sourceTree = "<group>"; };
+		564711B918DE1D1A006A8121 /* MccMemoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccMemoryCollectionViewController.m; sourceTree = "<group>"; };
+		564711BA18DE1D1A006A8121 /* MccMemoryCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MccMemoryCollectionViewController.xib; sourceTree = "<group>"; };
+		564711BE18DE1E7F006A8121 /* MccMemoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccMemoryCollectionViewCell.m; sourceTree = "<group>"; };
+		564711D118DEBC4D006A8121 /* MccMemoryCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MccMemoryCard.h; path = ../MccMemoryCard.h; sourceTree = "<group>"; };
+		564711D218DEBC4D006A8121 /* MccMemoryCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MccMemoryCard.m; path = ../MccMemoryCard.m; sourceTree = "<group>"; };
+		564711D418DEC7B3006A8121 /* NSMutableArray+MccShuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MccShuffling.h"; sourceTree = "<group>"; };
+		564711D518DEC7B3006A8121 /* NSMutableArray+MccShuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MccShuffling.m"; sourceTree = "<group>"; };
+		564711D718DF06B6006A8121 /* MccViewImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccViewImageViewController.h; sourceTree = "<group>"; };
+		564711D818DF06B6006A8121 /* MccViewImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccViewImageViewController.m; sourceTree = "<group>"; };
+		564711DA18E0C735006A8121 /* MccSelectedPicturesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MccSelectedPicturesTableViewController.h; path = ../MccSelectedPicturesTableViewController.h; sourceTree = "<group>"; };
+		564711DB18E0C735006A8121 /* MccSelectedPicturesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MccSelectedPicturesTableViewController.m; path = ../MccSelectedPicturesTableViewController.m; sourceTree = "<group>"; };
+		564711DD18E19F11006A8121 /* MccStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccStartViewController.h; sourceTree = "<group>"; };
+		564711DE18E19F11006A8121 /* MccStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccStartViewController.m; sourceTree = "<group>"; };
+		5665294818E208D6002FFC88 /* MccMemoryCardDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccMemoryCardDAO.h; sourceTree = "<group>"; };
+		5665294918E208D6002FFC88 /* MccMemoryCardDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccMemoryCardDAO.m; sourceTree = "<group>"; };
+		5665294B18E20A68002FFC88 /* MemoryCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryCard.h; sourceTree = "<group>"; };
+		5665294C18E20A68002FFC88 /* MemoryCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryCard.m; sourceTree = "<group>"; };
+		5692C9BC18EC0FFB0054BEBD /* MccGrapicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MccGrapicsUtil.h; sourceTree = "<group>"; };
+		5692C9BD18EC0FFB0054BEBD /* MccGrapicsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MccGrapicsUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +156,37 @@
 		5647118718DDAF4F006A8121 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				564711D118DEBC4D006A8121 /* MccMemoryCard.h */,
+				564711D218DEBC4D006A8121 /* MccMemoryCard.m */,
+				5692C9BC18EC0FFB0054BEBD /* MccGrapicsUtil.h */,
+				5692C9BD18EC0FFB0054BEBD /* MccGrapicsUtil.m */,
+				564711DA18E0C735006A8121 /* MccSelectedPicturesTableViewController.h */,
+				564711DB18E0C735006A8121 /* MccSelectedPicturesTableViewController.m */,
+				564711D018DE24DC006A8121 /* images */,
 				5647119018DDAF4F006A8121 /* MccAppDelegate.h */,
 				5647119118DDAF4F006A8121 /* MccAppDelegate.m */,
 				5647119618DDAF4F006A8121 /* Images.xcassets */,
 				5647119318DDAF4F006A8121 /* Memory.xcdatamodeld */,
+				5665294818E208D6002FFC88 /* MccMemoryCardDAO.h */,
+				5665294B18E20A68002FFC88 /* MemoryCard.h */,
+				5665294C18E20A68002FFC88 /* MemoryCard.m */,
+				5665294918E208D6002FFC88 /* MccMemoryCardDAO.m */,
 				5647118818DDAF4F006A8121 /* Supporting Files */,
+				564711B418DDAFA8006A8121 /* Main.storyboard */,
+				56342CD318E2FC8F00F675DE /* MccCardListTableViewCell.h */,
+				56342CD418E2FC8F00F675DE /* MccCardListTableViewCell.m */,
+				564711DD18E19F11006A8121 /* MccStartViewController.h */,
+				564711DE18E19F11006A8121 /* MccStartViewController.m */,
+				563C6CCB18E75F410019F2D4 /* MccNonRotatingImageView.h */,
+				563C6CCC18E75F410019F2D4 /* MccNonRotatingImageView.m */,
+				564711D718DF06B6006A8121 /* MccViewImageViewController.h */,
+				564711D818DF06B6006A8121 /* MccViewImageViewController.m */,
+				564711BE18DE1E7F006A8121 /* MccMemoryCollectionViewCell.m */,
+				564711B818DE1D1A006A8121 /* MccMemoryCollectionViewController.h */,
+				564711B918DE1D1A006A8121 /* MccMemoryCollectionViewController.m */,
+				564711D418DEC7B3006A8121 /* NSMutableArray+MccShuffling.h */,
+				564711D518DEC7B3006A8121 /* NSMutableArray+MccShuffling.m */,
+				564711BA18DE1D1A006A8121 /* MccMemoryCollectionViewController.xib */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -151,6 +218,14 @@
 				564711A718DDAF4F006A8121 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564711D018DE24DC006A8121 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				563C6CC918E5652B0019F2D4 /* green-and-white-polka-dots.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +276,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = McCoy;
 				TargetAttributes = {
+					5647117B18DDAF4F006A8121 = {
+						DevelopmentTeam = YGMUVRJ5PN;
+					};
 					5647119B18DDAF4F006A8121 = {
 						TestTargetID = 5647117B18DDAF4F006A8121;
 					};
@@ -229,8 +307,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564711B518DDAFA8006A8121 /* Main.storyboard in Resources */,
 				5647118C18DDAF4F006A8121 /* InfoPlist.strings in Resources */,
+				564711BC18DE1D1A006A8121 /* MccMemoryCollectionViewController.xib in Resources */,
 				5647119718DDAF4F006A8121 /* Images.xcassets in Resources */,
+				563C6CCA18E5652B0019F2D4 /* green-and-white-polka-dots.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +330,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5665294A18E208D6002FFC88 /* MccMemoryCardDAO.m in Sources */,
+				564711DC18E0C735006A8121 /* MccSelectedPicturesTableViewController.m in Sources */,
+				5665294D18E20A68002FFC88 /* MemoryCard.m in Sources */,
+				564711DF18E19F11006A8121 /* MccStartViewController.m in Sources */,
+				564711BF18DE1E7F006A8121 /* MccMemoryCollectionViewCell.m in Sources */,
 				5647119218DDAF4F006A8121 /* MccAppDelegate.m in Sources */,
+				563C6CCD18E75F410019F2D4 /* MccNonRotatingImageView.m in Sources */,
+				564711D318DEBC4D006A8121 /* MccMemoryCard.m in Sources */,
+				56342CD518E2FC8F00F675DE /* MccCardListTableViewCell.m in Sources */,
+				564711BB18DE1D1A006A8121 /* MccMemoryCollectionViewController.m in Sources */,
 				5647118E18DDAF4F006A8121 /* main.m in Sources */,
+				564711D618DEC7B3006A8121 /* NSMutableArray+MccShuffling.m in Sources */,
+				5692C9BE18EC0FFB0054BEBD /* MccGrapicsUtil.m in Sources */,
 				5647119518DDAF4F006A8121 /* Memory.xcdatamodeld in Sources */,
+				564711D918DF06B6006A8121 /* MccViewImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +465,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memory/Memory-Prefix.pch";
 				INFOPLIST_FILE = "Memory/Memory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,10 +483,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Memory/Memory-Prefix.pch";
 				INFOPLIST_FILE = "Memory/Memory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +557,7 @@
 				564711B018DDAF4F006A8121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		564711B118DDAF4F006A8121 /* Build configuration list for PBXNativeTarget "MemoryTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +566,7 @@
 				564711B318DDAF4F006A8121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
